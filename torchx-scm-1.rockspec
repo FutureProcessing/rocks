@@ -1,26 +1,21 @@
-package = "loadcaffe"
-version = "1.0-0"
+package = "torchx"
+version = "scm-1"
 
 source = {
-   url = "git://github.com/szagoruyko/loadcaffe",
+   url = "git://github.com/nicholas-leonard/torchx",
    tag = "master"
 }
 
 description = {
-   summary = "Load Caffe networks in Torch7",
+   summary = "torch extensions",
    detailed = [[
-Loading Caffe networks without caffe dependency
+   	    Experimental torch extensions
    ]],
-   homepage = "https://github.com/szagoruyko/loadcaffe",
-   license = "BSD"
+   homepage = "https://github.com/nicholas-leonard/torchx/blob/master/README.md"
 }
 
 dependencies = {
-   "torch >= 7.0",
-   "nn",
-   "cunn",
-   "ccn2",
-   "inn"
+   "torch >= 7.0"
 }
 
 build = {

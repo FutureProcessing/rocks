@@ -1,26 +1,24 @@
-package = "loadcaffe"
+package = "inn"
 version = "1.0-0"
 
 source = {
-   url = "git://github.com/szagoruyko/loadcaffe",
+   url = "git://github.com/szagoruyko/imagine-nn",
    tag = "master"
 }
 
 description = {
-   summary = "Load Caffe networks in Torch7",
+   summary = "IMAGINE/LIGM torch nn repository",
    detailed = [[
-Loading Caffe networks without caffe dependency
+Universite Paris-Est MLV Imagine laboratory nn routines
    ]],
-   homepage = "https://github.com/szagoruyko/loadcaffe",
+   homepage = "https://github.com/szagoruyko/imagine-nn",
    license = "BSD"
 }
 
 dependencies = {
    "torch >= 7.0",
    "nn",
-   "cunn",
-   "ccn2",
-   "inn"
+   "cunn"
 }
 
 build = {

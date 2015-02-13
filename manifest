@@ -34,6 +34,13 @@ repository = {
          }
       }
    },
+   caffe = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    cairo = {
       ['0.5.0-0'] = {
          {
@@ -128,6 +135,13 @@ repository = {
    },
    cwrap = {
       ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   display = {
+      ['scm-0'] = {
          {
             arch = "rockspec"
          }
@@ -269,6 +283,20 @@ repository = {
          }
       }
    },
+   inn = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   itorch = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    json = {
       ['1.0-0'] = {
          {
@@ -313,6 +341,13 @@ repository = {
    },
    mattorch = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   metriclearning = {
+      ['scm-0'] = {
          {
             arch = "rockspec"
          }
@@ -415,6 +450,13 @@ repository = {
          }
       }
    },
+   plplot = {
+      ['0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    pprint = {
       ['0-0'] = {
          {
@@ -511,6 +553,13 @@ repository = {
          }
       }
    },
+   sndfile = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    strict = {
       ['0-0'] = {
          {
@@ -544,6 +593,13 @@ repository = {
          }
       }
    },
+   tds = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    thmap = {
       ['scm-1'] = {
          {
@@ -572,6 +628,13 @@ repository = {
    },
    torchffi = {
       ['1.1.alpha-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   torchx = {
+      ['scm-1'] = {
          {
             arch = "rockspec"
          }
