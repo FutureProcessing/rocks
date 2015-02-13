@@ -2,8 +2,8 @@ package = "sys"
 version = "1.1-1"
 
 source = {
-   url = "git://github.com/diz-vara/sys",
-   tag = "1.1-1"
+   url = "git://github.com/torch/sys",
+   tag = "1.1-0"
 }
 
 description = {
@@ -11,7 +11,7 @@ description = {
    detailed = [[
 Provides system functionalities for Torch.
    ]],
-   homepage = "https://github.com/diz-vara/sys",
+   homepage = "https://github.com/torch/sys",
    license = "BSD"
 }
 
