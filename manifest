@@ -593,6 +593,12 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+
+      ['1.1-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    tds = {
