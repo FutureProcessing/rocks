@@ -3,7 +3,7 @@ version = "1.1.0-3"
 
 source = {
   dir = "penlight-1.1.0",
-  url = "http://stevedonovan.github.com/files/penlight-1.1.0-core.zip",
+  url = "https://github.com/diz-vara/Penlight",
 }
 
 description = {
