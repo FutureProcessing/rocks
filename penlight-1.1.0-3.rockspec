@@ -19,7 +19,7 @@ on tables and sequences.
 }
 
 dependencies = {
-  "luafilesystem",
+  "lfs",
 }
 
 build = {
