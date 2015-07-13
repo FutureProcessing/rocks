@@ -443,6 +443,13 @@ repository = {
          }
       }
    },
+   penlight = {
+      ['1.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    persist = {
       ['scm-0'] = {
          {
@@ -582,12 +589,13 @@ repository = {
       }
    },
    sys = {
-      ['1.0-0'] = {
+      ['1.1-2'] = {
          {
             arch = "rockspec"
          }
       },
-      ['1.1-1'] = {
+
+      ['1.1-2'] = {
          {
             arch = "rockspec"
          }
@@ -614,19 +622,7 @@ repository = {
          }
       }
    },
-   torch = {
-      ['7.scm-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['scm-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   torchffi = {
+      torchffi = {
       ['1.1.alpha-0'] = {
          {
             arch = "rockspec"
