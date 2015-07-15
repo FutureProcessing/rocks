@@ -2,7 +2,7 @@ package = "torch64"
 version = "scm-1"
 
 source = {
-   url = "git://github.com/diz-vara/torch7.git --branch x64",
+   url = "git://github.com/diz-vara/torch7.git",
 }
 
 description = {
