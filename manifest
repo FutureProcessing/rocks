@@ -27,6 +27,13 @@ repository = {
          }
       }
    },
+   autograd = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    buffer = {
       ['scm-0'] = {
          {
@@ -85,6 +92,20 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   clnn = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   cltorch = {
       ['scm-1'] = {
          {
             arch = "rockspec"
@@ -155,6 +176,13 @@ repository = {
       }
    },
    dp = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   dpnn = {
       ['scm-1'] = {
          {
             arch = "rockspec"
@@ -245,8 +273,15 @@ repository = {
          }
       }
    },
+   hash = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    hdf5 = {
-      ['0-0'] = {
+      ['20-0'] = {
          {
             arch = "rockspec"
          }
@@ -318,6 +353,13 @@ repository = {
          }
       }
    },
+   luaffi = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luaforever = {
       ['scm-1'] = {
          {
@@ -375,6 +417,13 @@ repository = {
       }
    },
    nnbhwd = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   nnfunc = {
       ['scm-1'] = {
          {
             arch = "rockspec"
@@ -504,6 +553,13 @@ repository = {
          }
       }
    },
+   rational = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['redis-async'] = {
       ['scm-0'] = {
          {
@@ -527,6 +583,13 @@ repository = {
    },
    restclient = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   rnn = {
+      ['scm-1'] = {
          {
             arch = "rockspec"
          }
