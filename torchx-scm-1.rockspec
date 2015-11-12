@@ -1,7 +1,7 @@
 package = "torchx"
 version = "scm-1"
 
-["platforms"] = {
+platforms = {
       [1] = "win32";
       [2] = "mingw32";
       [3] = "windows";
