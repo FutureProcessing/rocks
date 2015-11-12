@@ -23,6 +23,7 @@ dependencies = {
 build = {
    type = "command",
    build_command = [[
+dir
 cd torchx
 git submodule init
 git submodule update
