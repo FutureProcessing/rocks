@@ -1,6 +1,13 @@
 package = "torchx"
 version = "scm-1"
 
+["platforms"] = {
+      [1] = "win32";
+      [2] = "mingw32";
+      [3] = "windows";
+   };
+   
+
 source = {
    url = "git://github.com/nicholas-leonard/torchx",
    tag = "master"
