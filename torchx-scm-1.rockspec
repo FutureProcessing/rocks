@@ -18,8 +18,10 @@ dependencies = {
    "torch >= 7.0",
    "paths >= 1",
    "sys >= 1.1"
-},
+}
 
+build = {
+   type = "command",
    build_command = [[
 git submodule init
 git submodule update
