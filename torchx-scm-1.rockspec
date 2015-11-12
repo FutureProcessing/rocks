@@ -32,6 +32,9 @@ cmake -E make_directory build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release
    platforms = {
       windows = {
       build_command  = [[
+dir *.*
+git submodule install;
+git submodule update;
 cmake -E make_directory build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="$(LUA_BINDIR)/.." -DCMAKE_INSTALL_PREFIX="$(PREFIX)" && $(MAKE)
 ]]
       }
