@@ -2,8 +2,7 @@ package = "imgraph"
 version = "1.0-0"
 
 source = {
-   url = "git://github.com/diz-vara/lua---imgraph",
-   tag = "1.0-0"
+   url = "git://github.com/diz-vara/lua---imgraph"
 }
 
 description = {
