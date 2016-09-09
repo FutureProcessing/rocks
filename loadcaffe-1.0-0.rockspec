@@ -2,7 +2,7 @@ package = "loadcaffe"
 version = "1.0-0"
 
 source = {
-   url = "git://github.com/diz-vara/loadcaffe",
+   url = "git://github.com/FutureProcessing/loadcaffe",
    tag = "master"
 }
 
