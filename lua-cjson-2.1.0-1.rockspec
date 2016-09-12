@@ -2,7 +2,8 @@ package = "lua-cjson"
 version = "2.1.0-1"
 
 source = {
-    url = "http://www.kyne.com.au/~mark/software/download/lua-cjson-2.1.0.zip",
+    url = "git://github.com/FutureProcessing/lua-cjson",
+    tag = "master"
 }
 
 description = {
