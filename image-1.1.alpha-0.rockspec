@@ -26,7 +26,7 @@ dependencies = {
 build = {
    type = "command",
    build_command = [[
-cmake -E make_directory build && cd build && cmake .. -DLUALIB=$(LUALIB) -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="$(LUA_BINDIR)/.." -DCMAKE_INSTALL_PREFIX="$(PREFIX)" -DJPEG_LIBRARY=%JPEG_LIBRARY% -DJPEG_INCLUDE_DIR=%JPEG_INCLUDE_DIR% && $(MAKE)
+cmake -E make_directory build && cd build && cmake .. -DLUALIB=$(LUALIB) -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="$(LUA_BINDIR)/.." -DCMAKE_INSTALL_PREFIX="$(PREFIX)" -DJPEG_LIBRARY=%JPEG_LIBRARY% -DJPEG_INCLUDE_DIR=%JPEG_INCLUDE_DIR% -DPNG_LIBRARY=%PNG_LIBRARY% -DPNG_INCLUDE_DIR=%PNG_INCLUDE_DIR% && $(MAKE)
    ]],
    install_command = "cd build && $(MAKE) install"
 }
