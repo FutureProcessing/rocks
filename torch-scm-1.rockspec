@@ -2,14 +2,14 @@ package = "torch"
 version = "scm-1"
 
 source = {
-   url = "git://github.com/diz-vara/torch7.git",
+   url = "git://github.com/FutureProcessing/torch7.git",
 }
 
 description = {
    summary = "Torch7",
    detailed = [[
    ]],
-   homepage = "https://github.com/diz-vara/torch7",
+   homepage = "https://github.com/FutureProcessing/torch7",
    license = "BSD"
 }
 
