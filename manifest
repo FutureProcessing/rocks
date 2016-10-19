@@ -374,6 +374,13 @@ repository = {
          }
       }
    },
+   luafilesystem = {
+      ['1.6.3-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    manifold = {
       ['scm-0'] = {
          {
