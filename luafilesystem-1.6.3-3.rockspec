@@ -1,5 +1,5 @@
 package = "LuaFileSystem"
-version = "1.6.3-2"
+version = "1.6.3-3"
 source = {
    url = "git://github.com/FutureProcessing/luafilesystem",
    tag = "master"
